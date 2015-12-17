@@ -1,0 +1,788 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+*:focus {
+    outline: 0
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+html {
+    width: 100%;
+    max-width: 100%
+}
+
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3b3b39;
+    font-kerning: normal
+}
+
+div,
+section,
+nav,
+article,
+aside,
+header,
+footer {
+    overflow: hidden
+}
+
+a {
+    text-decoration: none;
+    color: #ff0092
+}
+
+p {
+    width: auto;
+    margin: 1em 0
+}
+
+em {
+    padding: 0 .15em;
+    font-style: italic
+}
+
+
+#nav-main-alpha-1,
+#nav-main-alpha-2,
+#nav-main-alpha-3,
+#nav-main-alpha-4,
+#nav-main-alpha-5,
+#nav-main-alpha-6,
+#nav-main-alpha-7 {
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/v2/bg-menu2.png') center 0 no-repeat
+}
+
+#nav-main-alpha-6 {
+    background-position: center -252px
+}
+
+#nav-main-alpha-1 {
+    background-position: 0 0
+}
+
+#nav-main-alpha-2 {
+    background-position: center -52px
+}
+
+
+#nav-main-alpha-3 {
+    background-position: center -101px
+}
+
+#nav-main-alpha-4 {
+    background-position: center -153px
+}
+
+
+#nav-main-alpha-5 {
+    background-position: center -202px
+}
+
+
+
+#newsletter1 #mc-embedded-subscribe {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    background: transparent;
+    color: #282828;
+    border: 0;
+    cursor: pointer
+}
+
+#ad-mobile {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    clear: both;
+    transition: all .25s;
+    z-index: 10100
+}
+
+#ad-mobile-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #fff url('http://abeautifulmess.typepad.com/web/images/v2/x-15.png') left top no-repeat;
+    opacity: .8;
+    z-index: 10150
+}
+
+#ad-mobile iframe,
+#ad-mobile div {
+    width: 100% !important
+}
+
+#imagelightbox {
+    position: fixed;
+    z-index: 9999;
+    -ms-touch-action: none;
+    touch-action: none
+}
+
+#wrapper {
+    margin: 0 auto;
+    background: #fff;
+    overflow: visible
+}
+
+.layout-a {
+    width: 80em;
+    margin: 0 auto
+}
+
+.layout-b {
+    width: 52.5em
+}
+
+.layout-c {
+    width: 25em
+}
+
+.layout-full {
+    width: 100%
+}
+
+#header {
+    margin-bottom: 3em;
+    overflow: visible
+}
+
+#nav-top-content {
+    font-family: 'Cardo', serif;
+    font-weight: 700
+}
+
+#nav-top ul {
+    float: left;
+    width: 80%
+}
+
+#nav-top ul li {
+    position: relative;
+    float: left
+}
+
+#nav-top ul li a {
+    display: inline-block;
+    padding: 1em;
+    line-height: 2em;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    color: #282828
+}
+
+#nav-top ul li a:hover {
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/v2/bg-hl3.png') center -269px no-repeat;
+    color: #000
+}
+
+#nav-top ul li#nav-top-apps a:hover:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: .2em;
+    left: 85%;
+    width: 15px;
+    height: 26px;
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/2015v1-01/bg-sprite-04.png') -221px -22px no-repeat
+}
+
+#nav-search {
+    display: block;
+    float: left;
+    height: 3.167em;
+    width: auto;
+    width: 20%
+}
+
+#nav-search form {
+    display: block;
+    height: 3em
+}
+
+#nav-search input,
+#search-blog2 input {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    overflow: visible
+}
+
+#nav-search input[type=search],
+#search-blog2 input[type=search] {
+    height: 3em;
+    margin: 0;
+    padding: 0 .5em;
+    font-size: inherit;
+    font-size: 1em;
+    letter-spacing: .25em;
+    background: #fbfbfb url('http://abeautifulmess.typepad.com/web/images/v2/ptrn/ptrn-grid-light.png') -0.45em -0.30em repeat;
+    color: #282828;
+    border: 0;
+    z-index: 10;
+    -webkit-appearance: textfield
+}
+
+::-webkit-search-cancel-button {
+    display: none
+}
+
+#nav-search input[type=search]:focus,
+#search-blog2 input[type=search]:focus {
+    outline: 0
+}
+
+#nav-search #submit,
+#search-blog2 #submit2 {
+    display: none
+}
+
+#banner {
+    position: relative;
+    height: 18em;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url('http://abeautifulmess.typepad.com/web/images/v2/banner8.jpg') center 0 repeat-x;
+    background-size: cover
+}
+
+#banner-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 18em;
+    text-indent: -5000em;
+    color: #282828;
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/abm-logo.png') 50% 4em no-repeat;
+    z-index: 10
+}
+
+#main-nav-content {
+    position: relative;
+    height: 3.5em;
+    padding-top: .66em;
+    background: #fff url('http://abeautifulmess.typepad.com/web/images/v2/ptrn/ptrn-grid-light.png') 0 0 repeat;
+    overflow: visible;
+    z-index: 9998
+}
+
+#main-nav-content.fixed {
+    position: fixed;
+    top: 0
+}
+
+#main-nav-content:after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    display: block;
+    width: 100%;
+    height: 7px;
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/2015v1-01/bg-sprite-04.png') 0 bottom repeat-x;
+    opacity: .15;
+    -ms-filter: "alpha(opacity=20)";
+    -moz-opacity: .15;
+    -khtml-opacity: .15
+}
+
+#main-nav-content.fixed:after {
+    opacity: .3;
+    -ms-filter: "alpha(opacity=30)";
+    -moz-opacity: .3;
+    -khtml-opacity: .3
+}
+
+.main-nav {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    clear: none;
+    overflow: visible
+}
+
+.main-nav ul {
+    width: 100%;
+    background: transparent;
+    z-index: 9999
+}
+
+.main-nav ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 13.214em;
+    width: 11.428em;
+    height: 2.83em;
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out
+}
+
+.no-touch .main-nav ul li:hover {
+    height: 3em;
+    margin-top: -0.17em
+}
+
+#search-blog2 {
+    display: block;
+    margin: 0 auto;
+    width: 100%
+}
+
+#search-blog2 #search2 {
+    width: 99%;
+    text-align: center;
+    background-color: transparent;
+    color: #fff
+}
+
+#nav-main-alpha-0,
+#nav-main-alpha-8 {
+    display: none
+}
+
+.main-nav ul li a {
+    display: block;
+    width: 97%;
+    margin: 0 auto;
+    padding: .1em 0 0 0;
+    text-align: center;
+    font-family: 'function_promedium', sans-serif;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    color: #282828
+}
+
+.main-nav ul li a span {
+    display: inline-block;
+    width: 100%;
+    padding: .5em .15em
+}
+
+.main-nav ul li>ul {
+    position: absolute;
+    visibility: hidden;
+    top: 100%;
+    left: -25%;
+    width: 150%;
+    padding: .5em 0 1.5em 0;
+    background: #fbfbfb url('http://abeautifulmess.typepad.com/web/images/v2/ptrn/ptrn-grid-light.png') -0.45em -0.30em repeat;
+    overflow: visible;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    -webkit-transition: all .3s ease-in-out, visibility 0 linear .25s;
+    -moz-transition: all .3s ease-in-out, visibility 0 linear .25s;
+    -o-transition: all .3s ease-in-out, visibility 0 linear .25s;
+    -ms-transition: all .3s ease-in-out, visibility 0 linear .25s;
+    transition: all .3s ease-in-out, visibility 0 linear .25s
+}
+
+.no-touch .main-nav ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "alpha(opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    transition-delay: 0
+}
+
+.main-nav ul ul li {
+    width: 100%;
+    height: 40px;
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/v2/bg-hl3.png') -209px -492px no-repeat;
+    -webkit-transition: all .12s ease-in-out 0;
+    -moz-transition: all .12s ease-in-out 0;
+    -o-transition: all .12s ease-in-out 0;
+    -ms-transition: all .12s ease-in-out 0;
+    transition: all .12s ease-in-out 0
+}
+
+.no-touch .main-nav ul ul li:hover {
+    height: 40px;
+    margin-top: 0;
+    background-position: -12px -490px
+}
+
+.main-nav ul ul li:first-child {
+    padding-top: 1.5em;
+    padding-top: 0
+}
+
+.main-nav ul ul:before {
+    content: '';
+    display: block;
+    width: 2.333em;
+    height: 1em;
+    margin: -1.05em auto -0.5em;
+    background: transparent url('http://abeautifulmess.typepad.com/web/images/2015v1-01/bg-sprite-04.png') -207px 0 no-repeat
+}
+
+.main-nav ul ul li a {
+    width: 75%;
+    line-height: 40px;
+    vertical-align: middle;
+    font-family: 'Cardo', serif;
+    font-size: .9em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    color: #282828;
+    z-index: 10
+}
+
+.main-nav ul ul li a:before {
+    content: '';
+    display: block;
+    width: 113px;
+    height: 3px;
+    margin: 0 auto;
+    background: url('http://abeautifulmess.typepad.com/web/images/2015v1-01/bg-sprite-04.png') 0 -270px no-repeat
+}
+
+.main-nav #nav-main-alpha-2 ul li a:before,
+.main-nav #nav-main-alpha-7 ul li a:before {
+    background-position: 0 -276px
+}
+
+.main-nav #nav-main-alpha-3 ul li a:before,
+.main-nav #nav-main-alpha-6 ul li a:before {
+    background-position: 0 -282px
+}
+
+.main-nav #nav-main-alpha-4 ul li a:before {
+    background-position: 0 -288px
+}
+
+.main-nav ul ul li:first-child a:before {
+    display: none
+}
+
+.main-nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0
+}
+
+#content {
+    clear: both;
+    overflow: visible;
+    position: relative
+}
+
+#content-inner {
+    min-height: 6200px;
+    overflow: visible
+}
+
+.live #content-inner {
+    min-height: auto
+}
+
+
+
+.nav-content {
+    margin: 0 auto 2em 0;
+    text-align: center
+}
+
+.nav-content-prev,
+.nav-content-next {
+    display: block;
+    margin: 0 auto;
+    width: 48%;
+    max-width: 48%;
+    height: 1.25em;
+    max-height: 1.25em;
+    line-height: 1.25em;
+    vertical-align: middle;
+    font-size: .75em;
+    font-family: 'function_promedium', sans-serif;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    overflow: hidden;
+    background: url('http://abeautifulmess.typepad.com/web/images/arrows.png') 0 1px no-repeat
+}
+
+.nav-content-prev {
+    float: left;
+    padding-left: 4.75em;
+    text-align: left;
+    clear: none
+}
+
+.nav-content-next {
+    float: right;
+    padding-right: 4.75em;
+    text-align: right;
+    background-position: right -22px;
+    clear: none
+}
+
+.nav-content a:hover {
+    color: #282828
+}
+
+
+.nav-pager-bottom {
+    width: auto;
+    margin: 2em auto;
+    text-align: center
+}
+
+.nav-pager-inner {
+    display: inline-block;
+    padding: 0
+}
+
+.nav-pager-note {
+    display: block;
+    float: left;
+    width: 4em;
+    margin: .5em .25em;
+    line-height: 1em;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: 'function_promedium', sans-serif;
+    letter-spacing: .05em
+}
+
+span.nav-pager-prev,
+span.nav-pager-next {
+    width: 11.3em;
+    margin: 0;
+    text-align: center;
+    background: url('http://abeautifulmess.typepad.com/web/images/v2/ptrn/ptrn-dots2.png'), url('http://abeautifulmess.typepad.com/web/images/2015v1-01/bg-sprite-04.png');
+    background-position: -0.8em -2.1em, 0 0;
+    background-repeat: repeat, no-repeat;
+    clear: none
+}
+
+.nav-pager-prev {
+    float: left
+}
+
+.nav-pager-next {
+    float: right
+}
+
+.nav-pager-prev a,
+.nav-pager-next a {
+    display: block;
+    height: 2.727em;
+    line-height: 2.727em;
+    vertical-align: middle;
+    font-family: 'function_prodemi', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #f1f1f1
+}
+
+.nav-pager-prev a {
+    text-align: right;
+    padding-right: 1em
+}
+
+.nav-pager-next a {
+    text-align: left;
+    padding-left: 1em
+}
+
+.nav-pager-prev a:before,
+.nav-pager-next a:after {
+    content: '';
+    display: block;
+    float: left;
+    width: 62px;
+    height: 21px;
+    margin: .9em 0 0 .5em;
+    background: url('http://abeautifulmess.typepad.com/web/images/2015v1-01/bg-sprite-04.png') -120px -244px no-repeat
+}
+
+.nav-pager-next a:after {
+    float: right;
+    margin: 1em .5em 0 0;
+    background-position: -120px -222px
+}
+
+/* ph=1 */
